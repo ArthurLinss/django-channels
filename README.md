@@ -17,3 +17,10 @@ Daphne (see settings) will take control of the runserver command, replacing the 
 
 
 Start Redis server: docker run -p 6379:6379 -d redis:5 (open -a docker)
+
+
+Chromedriver: https://chromedriver.storage.googleapis.com/index.html?path=109.0.5414.74/ (needed for tests)
+
+Channels in general: https://channels.readthedocs.io/en/stable/index.html#topics
+
+Environ: https://django-environ.readthedocs.io/en/latest/quickstart.html
