@@ -1,14 +1,24 @@
 <!-- chat/templates/chat/index.html -->
 <!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 <html>
 <head>
     <meta charset="utf-8"/>
     <title>Chat Rooms</title>
 </head>
 <body>
+    <div  class="container-fluid">
     What chat room would you like to enter?<br>
-    <input id="room-name-input" type="text" size="100"><br>
-    <input id="room-name-submit" type="button" value="Enter">
+    <input id="room-name-input" type="text"   size="100"><br>
+    <input id="room-name-submit" type="button" class="btn btn-primary mr-2 mb-2" value="Enter">
 
     <script>
         document.querySelector('#room-name-input').focus();
@@ -23,5 +33,6 @@
             window.location.pathname = '/chat/' + roomName + '/';
         };
     </script>
+</div>
 </body>
 </html>
