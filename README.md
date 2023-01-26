@@ -1,6 +1,6 @@
 # About this Django Example
 
-This is a django web framework example demonstrating the usage of some interesting concepts and technologies:
+This is a django web framework example demonstrating the usage of some modern concepts and technologies:
 
 - django channels (use websocket protocol for chat room)
 - env/environment variables for keeping secrets secret
@@ -41,15 +41,15 @@ Channels, more information: https://channels.readthedocs.io/en/stable/tutorial/p
 
 # Instructions
 
-Server running locally at http://127.0.0.1:8000/ (in browser).
-Requirements: pip freeze -l > requirements.txt
+- Server running locally at http://127.0.0.1:8000/ (in browser).
+- Requirements: pip freeze -l > requirements.txt
 
 # Docker
 
-docker build -t docker-django-v0.0
-docker run -it docker-django-v0.0 (or without -it)
+- docker build -t docker-django-v0.0
+- docker run -it docker-django-v0.0 (or without -it)
 
-# Docker Copmose
+# Docker-compose
 
-docker-compose build
-docker-compose up
+- docker-compose build
+- docker-compose up
