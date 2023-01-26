@@ -53,3 +53,8 @@ Channels, more information: https://channels.readthedocs.io/en/stable/tutorial/p
 
 - docker-compose build
 - docker-compose up
+
+# Environment
+
+- Add file with name .env in root directory and add this to .gitignore
+- in this file, add e.g.: SECRET_KEY=django-insecure-xyz (and keep it secret)
