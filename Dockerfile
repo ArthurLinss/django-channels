@@ -22,7 +22,7 @@ RUN pip install --upgrade pip
 COPY . $DockerHOME  
 #COPY . .
 
-COPY entrypoint.sh entrypoint.sh
+#COPY entrypoint.sh entrypoint.sh
 
 # run this command to install all dependencies  
 #RUN pip install -r requirements.txt
